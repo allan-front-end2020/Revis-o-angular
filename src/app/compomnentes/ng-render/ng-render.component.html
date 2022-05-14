@@ -1,0 +1,8 @@
+<div class="class">
+    <h1>Diretivas de *ngIF</h1>
+    <h1 *ngIf="canShow">Estamos Mostrando isso pq vou permetido</h1>
+    <h2 *ngIf="name === 'Allan'; else nameNotFalse">O nome e allan</h2>
+    <ng-template #nameNotFalse>
+        <div>s
+
+        </div>
